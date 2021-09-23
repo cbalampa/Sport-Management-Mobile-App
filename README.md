@@ -20,9 +20,7 @@
 
 ## Setup
 Μπορείτε να δοκιμάσετε το project κατεβάζοντας απλά τα αρχεία που θα βρείτε στον παρακάτω σύνδεσμο:
-[https://drive.google.com/drive/folders/1qSoXE21cMAvTsCkU_Kd1oAUB2pyX3zz9?usp=sharing](https://drive.google.com/drive/folders/1qSoXE21cMAvTsCkU_Kd1oAUB2pyX3zz9?usp=sharing)
-
-Αφού έχετε κατεβάσει τα απαραίτητα αρχεία, κάντε διπλό-κλικ στο jar αρχείο με όνομα TBD2020_FINAL. Περαιτέρω πληροφορίες για την επιτυχή σύνδεση σας βρίσκονται μέσα στο αρχείο README.
+[https://drive.google.com/drive/folders/1-XG4xadguRQwnNyhNfvz2mIKwyeE4LWS?usp=sharing](https://drive.google.com/drive/folders/1-XG4xadguRQwnNyhNfvz2mIKwyeE4LWS?usp=sharing)
 
 ## Βάση Δεδομένων
 Η βάση αποτελείται από ένα σύνολο οκτώ πινάκων οι οποίοι σχετίζονται μεταξύ τους με τη χρήση ξένων κλειδιών όπως φαίνεται στην παρακάτω εικόνα.
@@ -61,7 +59,5 @@
 - Αριθμός αθλητών ανά άθλημα
 - Μέσος όρος ηλικίας αθλητών της τοπικής βάσης
 
-
-
-<img src="https://user-images.githubusercontent.com/73292440/124302250-9dc64d80-db69-11eb-9cbc-7721ea3faeb0.gif" alt="drawing" width="600"/>
+<img src="https://user-images.githubusercontent.com/73292440/134453091-824c9763-c1ae-4b2b-bf99-f37472b81426.gif" alt="drawing" width="300"/>
 
