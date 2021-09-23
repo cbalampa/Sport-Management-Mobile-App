@@ -20,7 +20,7 @@
 
 ## Setup
 Μπορείτε να δοκιμάσετε το project κατεβάζοντας απλά τα αρχεία που θα βρείτε στον παρακάτω σύνδεσμο:
-[https://users.iee.ihu.gr/~it134157/adise20/ADISE20_134157/index.php](https://users.iee.ihu.gr/~it134157/adise20/ADISE20_134157/index.php)
+[https://drive.google.com/drive/folders/1qSoXE21cMAvTsCkU_Kd1oAUB2pyX3zz9?usp=sharing](https://drive.google.com/drive/folders/1qSoXE21cMAvTsCkU_Kd1oAUB2pyX3zz9?usp=sharing)
 
 Αφού έχετε κατεβάσει τα απαραίτητα αρχεία, κάντε διπλό-κλικ στο jar αρχείο με όνομα TBD2020_FINAL. Περαιτέρω πληροφορίες για την επιτυχή σύνδεση σας βρίσκονται μέσα στο αρχείο README.
 
