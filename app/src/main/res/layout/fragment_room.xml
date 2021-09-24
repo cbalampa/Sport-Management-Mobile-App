@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="100dp"
+    android:layout_marginTop="150dp"
+    tools:context=".HomePage_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Add user" />
+
+        <Button
+            android:id="@+id/query_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Queries" />
+
+        <Button
+            android:id="@+id/del_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Delete User" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="Update user" />
+
+</LinearLayout>

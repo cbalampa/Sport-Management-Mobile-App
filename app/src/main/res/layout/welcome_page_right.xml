@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:text="Προηγμένα Θέματα Αλληλεπίδρασης"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Η εργασία αποτελεί το 30% του τελικού βαθμού του μαθήματος. Είναι ομαδική και
+εκπονείται σε ομάδες των δύο ή τριών φοιτητών/τριών. Η παρουσίαση των εργασιών είναι
+υποχρεωτική και πρέπει να συμμετέχουν όλα τα μέλη της ομάδας. Η μη παρουσίαση της
+εργασίας ακυρώνει την εργασία, δηλ. θεωρείται ότι η εργασία δεν έχει εκπονηθεί. Επίσης,
+σημαντική παράμετρος στην βαθμολόγηση της εργασίας είναι η ποιότητα της έκθεσης που
+θα παραδοθεί. Για να μετρήσει ο βαθμός μίας εργασίας στην τελική βαθμολογία του
+μαθήματος θα πρέπει να βαθμολογηθεί τουλάχιστον με πέντε."
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

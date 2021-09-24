@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sport_actions.Sport_InsertFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:text="INSERT RECORD"
+        android:textAlignment="center" />
+    <!--
+        <EditText
+            android:id="@+id/et_sport_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:hint="INSERT ID"
+            android:inputType="numberDecimal" />
+    -->
+    <EditText
+        android:id="@+id/et_sport_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="INSERT SPORT NAME"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/rg_sport_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="80dp"
+            android:text="TYPE"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rb_sport_solo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:text="Solo" />
+
+        <RadioButton
+            android:id="@+id/rb_sport_team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_sport_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="54dp"
+            android:text="GENDER"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/rb_sport_men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:text="Men's" />
+
+        <RadioButton
+            android:id="@+id/rb_sport_women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women's" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/sport_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:enabled="false"
+        android:text="Submit" />
+</LinearLayout>

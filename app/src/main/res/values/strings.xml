@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project 2021</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_preference">com.example.project2021.loginPreference</string>
+    <string name="login_status">com.example.project2021.loginStatus</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

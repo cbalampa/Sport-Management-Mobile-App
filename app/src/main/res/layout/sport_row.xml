@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sport_row_cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/sport_row_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/Transparent" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sport_row_club_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/linearLayout"
+            android:padding="2dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:id="@+id/sport_row_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/sport_row_club_picture"
+            android:layout_toRightOf="@+id/sport_row_club_picture"
+            android:text="Sport "
+            android:textColor="#1d75b4"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sport_row_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sport_row_name"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/sport_row_club_picture"
+            android:layout_toRightOf="@+id/sport_row_club_picture"
+            android:text="Type"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
